@@ -5,7 +5,7 @@
         line: "0.0.0.0 gambling.com www.gambling.com"
         insertbefore: EOF
 
-    - name: Block Firgirl
+    - name: Block Fitgirl
       lineinfile:
         dest: /etc/hosts
         line: "0.0.0.0 fitgirl-repack.site www.fitgirl-repacks.site"

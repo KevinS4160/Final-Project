@@ -1,6 +1,10 @@
 ---
 - hosts: all
   become: true
+  vars:
+    admin_ip: 192.168.56.111
+    users_network: 192.168.56.113
+    printer_ip: 192.168.56.108
  
 - hosts: admin
   become: true
